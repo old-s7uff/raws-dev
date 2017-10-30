@@ -1,7 +1,7 @@
 #!/bin/bash
 
 gci() {
-      sudo apt-get update -y; sudo apt-get dist-upgrade -y; sudo apt-get install build-essential libssl-dev curl wget nano -y
+      sudo apt-get update -y; sudo apt-get dist-upgrade -y; sudo apt-get install build-essential gdb libssl-dev curl wget nano -y
       sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
       sudo apt-get update -y
       sudo apt-get autoremove -y; sudo apt-get update -y; sudo apt-get dist-upgrade -y;
